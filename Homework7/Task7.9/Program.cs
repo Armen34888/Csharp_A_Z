@@ -1,26 +1,30 @@
-﻿namespace Tak7._9
+﻿namespace Task7._9
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            //Print patterns using nested loops.
+            // Pattern Printing
 
-            int rows = 5;
+            int n = 5;
 
-            for (int i = 1; i <= rows; i++)
+
+            for (int i = 1; i <= n; i++)
             {
-                for (int j = 1; j <= rows - i; j++)
+
+                for (int j = 1; j <= n - i; j++)
                 {
                     Console.Write(" ");
                 }
-                for (int j = 1; j <= i * 2 - 1; j++)
+
+
+                for (int k = 1; k <= 2 * i - 1; k++)
                 {
                     Console.Write("*");
                 }
                 Console.WriteLine();
-
             }
-        }
+           
+        }  
     }
-}  
+}

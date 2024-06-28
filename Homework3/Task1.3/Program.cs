@@ -1,16 +1,15 @@
-﻿namespace Task1
+﻿namespace Task1._3
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            // Implicit Conversion
-
+            // Implicit Conversion.
             int x = 24;
             double y = x;
-            Console.WriteLine("x = " + x);
-            Console.WriteLine("y = " + y);
-           
+            Console.WriteLine(x);
+            Console.WriteLine(y);
+
         }
     }
 }
