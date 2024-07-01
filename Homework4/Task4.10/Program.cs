@@ -4,6 +4,8 @@
     {
         static void Main(string[] args)
         {
+            // GetHashCode
+
             string str1 = "hello";
             string str2 = "hello";
             string str3 = "world";
