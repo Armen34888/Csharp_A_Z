@@ -2,33 +2,27 @@
 {
     internal class Program
     {
+        // Advanced Challenge: Dependency Injection:
         static void Main(string[] args)
         {
-            MyInterface @interface = new MyClass();
-            @interface.GetHashCode();
-            Console.WriteLine(@interface.GetHashCode());
-           
-
-            
-            
+         
         }
     }
-
-    interface MyInterface
+    interface ILogger
     {
-        void Foo()
-        {
-            Console.WriteLine("ndvibevbidv");
-        }
+        string Log (string message);
         
-              
+    }
+    class ConsoleLogger
+    {
+
+    }
+    class FileLogger
+    {
+
     }
 
-    class MyClass : MyInterface
-    {
-        public void Foo()
-        {
-         Console.WriteLine("nxaaaaaaaaaaaaaa");
-        }
-    }
+
+
+
 }
