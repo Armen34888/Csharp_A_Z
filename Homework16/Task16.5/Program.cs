@@ -5,10 +5,10 @@
         // Advanced Challenge: Dependency Injection:
         static void Main(string[] args)
         {
-         
+            Console.WriteLine();
         }
     }
-    interface ILogger
+    interface ILogger 
     {
         string Log (string message);
         
